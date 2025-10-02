@@ -1,5 +1,5 @@
-import java.util.HashMap;
-import java.util.Map;
-
-public class ExampleHashMap {
-    public static void main(String[] args) {
+data: dict[str, int] = {
+    'груша': 50,
+    'клубника': 30,
+    'вишня': 25
+}
