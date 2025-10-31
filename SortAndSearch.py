@@ -23,7 +23,8 @@ def selection_sort(arr):
 
 return arr
 
-
+# Для [64, 25, 12, 22, 11]
+Отсортированный список: [11, 12, 22, 25, 64]
 
 #Алгоритм сортировки обменом
 def bubble_sort(arr):
@@ -52,6 +53,7 @@ if __name__ == "__main__":
     sorted_list = bubble_sort(example_list)
     print("Отсортированный список:", sorted_list)
 
+Отсортированный список: [11, 12, 22, 25, 34, 64, 90]
 
 
 #Алгоритм сортировки вставками
@@ -78,7 +80,7 @@ if __name__ == "__main__":
     sorted_list = insertion_sort(example_list)
     print("Отсортированный список:", sorted_list)
 
-
+Отсортированный список: [5, 6, 11, 12, 13]
 
 #Алгоритм сортировки слиянием (Merge Sort)
 def merge_sort(arr):
@@ -141,7 +143,7 @@ if __name__ == "__main__":
     sorted_list = merge_sort(example_list)
     print("Отсортированный список:", sorted_list)
 
-
+Отсортированный список: [3, 9, 10, 27, 38, 43, 82]
 
 #Алгоритм сортировки Шелла
 def shell_sort(arr):
@@ -175,7 +177,7 @@ if __name__ == "__main__":
     sorted_list = shell_sort(example_list)
     print("Отсортированный список:", sorted_list)
 
-
+Отсортированный список: [2, 6, 11, 19, 27, 31, 45, 121]
 
 #Быстрая сортировка (Quicksort)
 def quick_sort(arr):
@@ -204,7 +206,7 @@ if __name__ == "__main__":
     sorted_list = quick_sort(example_list)
     print("Отсортированный список:", sorted_list)
 
-
+Отсортированный список: [1, 5, 7, 8, 9, 10]
 
 #Пирамидальная сортировка (Heap Sort)
 def heapify(arr, n, i):
@@ -257,7 +259,7 @@ if __name__ == "__main__":
     sorted_list = heapsort(example_list)
     print("Отсортированный список:", sorted_list)
 
-
+Отсортированный список: [5, 6, 7, 11, 12, 13]
 
 #Последовательный поиск (линейный поиск)
 def sequential_search(arr, target):
@@ -286,7 +288,7 @@ if __name__ == "__main__":
     else:
         print(f"Значение {search_value} не найдено.")
 
-
+Значение 45 найдено на позиции 3.
 
 #Бинарный поиск (Binary Search)
 def binary_search(arr, target):
@@ -324,7 +326,7 @@ if __name__ == "__main__":
     else:
         print(f"Значение {target_value} не найдено.")
 
-
+Значение 23 найдено на позиции 5.
 
 #Интерполирующий поиск (Interpolation Search)
 def interpolation_search(arr, target):
@@ -363,7 +365,7 @@ if __name__ == "__main__":
     else:
         print(f"Значение {target_value} не найдено.")
 
-
+Значение 22 найдено на позиции 8.
 
 #Фибоначчиевый поиск (Fibonacci Search)
 def fibonacci_search(arr, target):
@@ -428,3 +430,4 @@ if __name__ == "__main__":
         print(f"Значение {target_value} найдено на позиции {result}.")
     else:
         print(f"Значение {target_value} не найдено.")
+        Значение 22 найдено на позиции 8.
